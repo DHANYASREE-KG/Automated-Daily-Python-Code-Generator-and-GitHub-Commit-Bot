@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-10-11T06:29:51.879594+00:00",
-  "total_programs": 1,
+  "last_updated": "2026-10-11T15:43:02.809186+00:00",
+  "total_programs": 2,
   "programs": [
     {
       "id": "basics_01",
@@ -12,6 +12,17 @@
       "source": "curated-template",
       "generated_date": "2026-10-11",
       "timestamp": "2026-10-11T06:29:51.879594+00:00"
+    },
+    {
+      "id": "strings_01",
+      "category": "strings",
+      "filename": "programs/strings/01_palindrome_checker.py",
+      "title": "Alphanumeric Palindrome Checker",
+      "summary": "Validates if a sentence reads identically forwards and backwards, ignoring non-alphanumeric characters",
+      "content_hash": "1f44efe81749f8e583e6851272b0d0e96440e514f817aff31865a7b4ff5a4cdf",
+      "source": "curated-template",
+      "generated_date": "2026-10-11",
+      "timestamp": "2026-10-11T15:43:02.809186+00:00"
     }
   ]
 }
