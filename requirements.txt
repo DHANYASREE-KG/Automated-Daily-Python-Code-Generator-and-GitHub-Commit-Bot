@@ -1,0 +1,3 @@
+# Core dependencies for the Daily Python Code Generator and Test Suite
+requests>=2.31.0
+pytest>=8.0.0

@@ -1,0 +1,126 @@
+name: Automated Daily Python Code Generator
+
+on:
+  schedule:
+    # 9:00 AM Indian Standard Time (IST) corresponds to 03:30 AM UTC (IST is UTC+5:30)
+    - cron: '30 3 * * *'
+  workflow_dispatch:
+    inputs:
+      category:
+        description: 'Topic Category (auto, basics, strings, lists, functions, oop, dsa, utilities)'
+        required: false
+        default: 'auto'
+        type: choice
+        options:
+          - auto
+          - basics
+          - strings
+          - lists
+          - functions
+          - oop
+          - dsa
+          - utilities
+      force:
+        description: 'Force new program generation even if already run today'
+        required: false
+        type: boolean
+        default: false
+
+# Prevent concurrent jobs from racing on git commits
+concurrency:
+  group: daily-python-bot
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  generate-and-push:
+    name: Generate Python Program & Push Commit
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: 'pip'
+
+      - name: Install Dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Run Pre-Generation Test Suite
+        run: |
+          pytest tests/ -v
+
+      - name: Run Program Generator (Offline Template Catalog)
+        run: |
+          CATEGORY="${{ github.event.inputs.category || 'auto' }}"
+          FORCE_ARG=""
+          if [ "${{ github.event.inputs.force }}" = "true" ]; then
+            FORCE_ARG="--force"
+          fi
+          echo "Running generator with Category='$CATEGORY' and Force='$FORCE_ARG'..."
+          python generator/generate_program.py --category "$CATEGORY" --source template $FORCE_ARG
+
+      - name: Validate Python Syntax of All Programs
+        run: |
+          echo "Compiling all Python programs to verify syntax integrity..."
+          python -m py_compile programs/*/*.py
+          echo "Re-running test suite after generation..."
+          pytest tests/ -v
+
+      - name: Check For Repository Changes
+        id: git_status
+        run: |
+          if [ -z "$(git status --porcelain programs/ manifest.json)" ]; then
+            echo "has_changes=false" >> $GITHUB_OUTPUT
+            echo "No new files generated or changes detected. Nothing to commit."
+          else
+            echo "has_changes=true" >> $GITHUB_OUTPUT
+            echo "New files detected in programs/ or manifest.json."
+          fi
+
+      - name: Commit and Push Changes
+        if: steps.git_status.outputs.has_changes == 'true'
+        run: |
+          # Retrieve the latest program details from manifest for a descriptive commit message
+          COMMIT_DESC=$(python -c "
+          import json, os
+          if os.path.exists('manifest.json'):
+              try:
+                  with open('manifest.json', 'r', encoding='utf-8') as f:
+                      m = json.load(f)
+                      if m.get('programs'):
+                          last = m['programs'][-1]
+                          cat = last.get('category', 'practice').upper()
+                          title = last.get('title', 'Daily Python Program')
+                          print(f'{cat}: {title}')
+                          exit(0)
+              except Exception:
+                  pass
+          print('Daily Python practice program')
+          ")
+
+          echo "Configuring git credentials..."
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          echo "Staging generated files..."
+          git add programs/ manifest.json
+
+          echo "Creating commit: Add daily Python program - $COMMIT_DESC [skip ci]"
+          git commit -m "feat(daily-practice): Add $COMMIT_DESC [skip ci]"
+
+          echo "Pushing changes to remote branch..."
+          git push origin HEAD:${{ github.ref_name }}
+
+          echo "Daily program committed and pushed successfully!"
