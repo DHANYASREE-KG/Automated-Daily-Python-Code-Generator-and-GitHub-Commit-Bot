@@ -1,5 +1,17 @@
 {
-  "last_updated": null,
-  "total_programs": 0,
-  "programs": []
+  "last_updated": "2026-10-11T06:29:51.879594+00:00",
+  "total_programs": 1,
+  "programs": [
+    {
+      "id": "basics_01",
+      "category": "basics",
+      "filename": "programs/basics/01_prime_number_checker.py",
+      "title": "Prime Number Checker and Range Generator",
+      "summary": "Determines whether a number is prime and finds all primes up to N",
+      "content_hash": "7b7568f91c174a92ce09eee700e348f4cc60918e2f940ee3569355d48d935c36",
+      "source": "curated-template",
+      "generated_date": "2026-10-11",
+      "timestamp": "2026-10-11T06:29:51.879594+00:00"
+    }
+  ]
 }
