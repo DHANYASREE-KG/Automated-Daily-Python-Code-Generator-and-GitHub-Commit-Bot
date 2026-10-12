@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-10-11T15:43:02.809186+00:00",
-  "total_programs": 2,
+  "last_updated": "2026-10-12T05:57:03.616095+00:00",
+  "total_programs": 3,
   "programs": [
     {
       "id": "basics_01",
@@ -23,6 +23,17 @@
       "source": "curated-template",
       "generated_date": "2026-10-11",
       "timestamp": "2026-10-11T15:43:02.809186+00:00"
+    },
+    {
+      "id": "lists_01",
+      "category": "lists",
+      "filename": "programs/lists/01_remove_duplicates.py",
+      "title": "Order-Preserving List Deduplication",
+      "summary": "Removes duplicate elements from a sequence while strictly preserving original order",
+      "content_hash": "1d99b45de4fd0247ee71a80a3e2c20caf41bc439fbb0a98de1287500bda40c29",
+      "source": "curated-template",
+      "generated_date": "2026-10-12",
+      "timestamp": "2026-10-12T05:57:03.616095+00:00"
     }
   ]
 }
