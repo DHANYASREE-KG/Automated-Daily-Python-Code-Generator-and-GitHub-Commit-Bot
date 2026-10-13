@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-10-12T05:57:03.616095+00:00",
-  "total_programs": 3,
+  "last_updated": "2026-10-13T10:53:36.214579+00:00",
+  "total_programs": 4,
   "programs": [
     {
       "id": "basics_01",
@@ -34,6 +34,17 @@
       "source": "curated-template",
       "generated_date": "2026-10-12",
       "timestamp": "2026-10-12T05:57:03.616095+00:00"
+    },
+    {
+      "id": "functions_01",
+      "category": "functions",
+      "filename": "programs/functions/01_memoized_fibonacci.py",
+      "title": "Memoized Fibonacci using Custom Decorator",
+      "summary": "Demonstrates Python decorators and memoization caching for high-speed recursion",
+      "content_hash": "62632e00517d32c23486fb3a28bc54cb25b5697738d678bf0d0fbedb3c244eb1",
+      "source": "curated-template",
+      "generated_date": "2026-10-13",
+      "timestamp": "2026-10-13T10:53:36.214579+00:00"
     }
   ]
 }
