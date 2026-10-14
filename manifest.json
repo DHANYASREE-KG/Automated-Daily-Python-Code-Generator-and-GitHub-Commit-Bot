@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-10-13T10:53:36.214579+00:00",
-  "total_programs": 4,
+  "last_updated": "2026-10-14T08:56:20.298116+00:00",
+  "total_programs": 5,
   "programs": [
     {
       "id": "basics_01",
@@ -45,6 +45,17 @@
       "source": "curated-template",
       "generated_date": "2026-10-13",
       "timestamp": "2026-10-13T10:53:36.214579+00:00"
+    },
+    {
+      "id": "oop_01",
+      "category": "oop",
+      "filename": "programs/oop/01_bank_account_simulator.py",
+      "title": "Bank Account Simulator with Transaction Ledger",
+      "summary": "Encapsulates balance, deposits, withdrawals, and immutable transaction history",
+      "content_hash": "01d35d99c4b6b9e13f926e36ac17beb396ab41398a015c09dea768e10ae3eb7f",
+      "source": "curated-template",
+      "generated_date": "2026-10-14",
+      "timestamp": "2026-10-14T08:56:20.298116+00:00"
     }
   ]
 }
