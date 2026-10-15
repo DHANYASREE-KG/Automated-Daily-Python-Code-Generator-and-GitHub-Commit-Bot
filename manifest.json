@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-10-14T08:56:20.298116+00:00",
-  "total_programs": 5,
+  "last_updated": "2026-10-15T08:30:06.663563+00:00",
+  "total_programs": 6,
   "programs": [
     {
       "id": "basics_01",
@@ -56,6 +56,17 @@
       "source": "curated-template",
       "generated_date": "2026-10-14",
       "timestamp": "2026-10-14T08:56:20.298116+00:00"
+    },
+    {
+      "id": "dsa_01",
+      "category": "dsa",
+      "filename": "programs/dsa/01_binary_search.py",
+      "title": "Binary Search Algorithm",
+      "summary": "Performs logarithmic search on a sorted list with iterative and recursive variants",
+      "content_hash": "da764d226d7d1e21dd1b6526a767caf3dce08905295798f037f5436090334ae8",
+      "source": "curated-template",
+      "generated_date": "2026-10-15",
+      "timestamp": "2026-10-15T08:30:06.663563+00:00"
     }
   ]
 }
