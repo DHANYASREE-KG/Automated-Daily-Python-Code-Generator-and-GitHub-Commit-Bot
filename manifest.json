@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-10-15T08:30:06.663563+00:00",
-  "total_programs": 6,
+  "last_updated": "2026-10-16T08:23:34.977944+00:00",
+  "total_programs": 7,
   "programs": [
     {
       "id": "basics_01",
@@ -67,6 +67,17 @@
       "source": "curated-template",
       "generated_date": "2026-10-15",
       "timestamp": "2026-10-15T08:30:06.663563+00:00"
+    },
+    {
+      "id": "utilities_01",
+      "category": "utilities",
+      "filename": "programs/utilities/01_text_file_analyzer.py",
+      "title": "Text File and Character Count Analyzer",
+      "summary": "Analyzes text streams computing line counts, word counts, and average word lengths",
+      "content_hash": "90b58d874e702cab572137860b6822ed09690b139c429d42c25f2d506cf90a15",
+      "source": "curated-template",
+      "generated_date": "2026-10-16",
+      "timestamp": "2026-10-16T08:23:34.977944+00:00"
     }
   ]
 }
