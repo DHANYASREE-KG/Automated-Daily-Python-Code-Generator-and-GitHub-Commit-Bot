@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-10-16T08:23:34.977944+00:00",
-  "total_programs": 7,
+  "last_updated": "2026-10-17T07:57:40.053399+00:00",
+  "total_programs": 8,
   "programs": [
     {
       "id": "basics_01",
@@ -78,6 +78,17 @@
       "source": "curated-template",
       "generated_date": "2026-10-16",
       "timestamp": "2026-10-16T08:23:34.977944+00:00"
+    },
+    {
+      "id": "basics_02",
+      "category": "basics",
+      "filename": "programs/basics/02_fibonacci_generator.py",
+      "title": "Fibonacci Sequence Generator",
+      "summary": "Generates the Fibonacci sequence up to N terms using iteration",
+      "content_hash": "53d1261aba6adac5037213fc29295457d0e54d41683c9744e175d7301c48d784",
+      "source": "curated-template",
+      "generated_date": "2026-10-17",
+      "timestamp": "2026-10-17T07:57:40.053399+00:00"
     }
   ]
 }
