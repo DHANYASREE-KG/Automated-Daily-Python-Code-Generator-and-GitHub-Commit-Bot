@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-10-17T07:57:40.053399+00:00",
-  "total_programs": 8,
+  "last_updated": "2026-10-18T08:13:15.922021+00:00",
+  "total_programs": 9,
   "programs": [
     {
       "id": "basics_01",
@@ -89,6 +89,17 @@
       "source": "curated-template",
       "generated_date": "2026-10-17",
       "timestamp": "2026-10-17T07:57:40.053399+00:00"
+    },
+    {
+      "id": "strings_02",
+      "category": "strings",
+      "filename": "programs/strings/02_anagram_detector.py",
+      "title": "Anagram Detector and Frequency Matcher",
+      "summary": "Determines whether two strings are anagrams of each other",
+      "content_hash": "75eb8473205944b31c815da10c61716c3d4afbaff2f2d67af9b4284b90d2333d",
+      "source": "curated-template",
+      "generated_date": "2026-10-18",
+      "timestamp": "2026-10-18T08:13:15.922021+00:00"
     }
   ]
 }
