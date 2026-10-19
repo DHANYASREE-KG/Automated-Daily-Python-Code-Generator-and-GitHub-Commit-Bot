@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-10-18T08:13:15.922021+00:00",
-  "total_programs": 9,
+  "last_updated": "2026-10-19T09:11:24.870769+00:00",
+  "total_programs": 10,
   "programs": [
     {
       "id": "basics_01",
@@ -100,6 +100,17 @@
       "source": "curated-template",
       "generated_date": "2026-10-18",
       "timestamp": "2026-10-18T08:13:15.922021+00:00"
+    },
+    {
+      "id": "lists_02",
+      "category": "lists",
+      "filename": "programs/lists/02_two_sum_solver.py",
+      "title": "Two-Sum Target Solver",
+      "summary": "Finds indices of two elements in a list that sum to a given target using a hash map",
+      "content_hash": "13332ab322f0e64369b14c27d6efeecc8bf0c59fe4a2b89f0fee5f173dea48fc",
+      "source": "curated-template",
+      "generated_date": "2026-10-19",
+      "timestamp": "2026-10-19T09:11:24.870769+00:00"
     }
   ]
 }
