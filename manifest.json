@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-10-19T09:11:24.870769+00:00",
-  "total_programs": 10,
+  "last_updated": "2026-10-20T08:46:21.929732+00:00",
+  "total_programs": 11,
   "programs": [
     {
       "id": "basics_01",
@@ -111,6 +111,17 @@
       "source": "curated-template",
       "generated_date": "2026-10-19",
       "timestamp": "2026-10-19T09:11:24.870769+00:00"
+    },
+    {
+      "id": "functions_02",
+      "category": "functions",
+      "filename": "programs/functions/02_custom_map_filter_reduce.py",
+      "title": "Custom Higher-Order Map, Filter, and Reduce",
+      "summary": "Implements core functional programming primitives using pure Python loops",
+      "content_hash": "e3e973628e43ce4eda8388ab32bdc9acb10937674aeb38fafc4a37955b7db600",
+      "source": "curated-template",
+      "generated_date": "2026-10-20",
+      "timestamp": "2026-10-20T08:46:21.929732+00:00"
     }
   ]
 }
