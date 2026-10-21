@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-10-20T08:46:21.929732+00:00",
-  "total_programs": 11,
+  "last_updated": "2026-10-21T08:47:08.253590+00:00",
+  "total_programs": 12,
   "programs": [
     {
       "id": "basics_01",
@@ -122,6 +122,17 @@
       "source": "curated-template",
       "generated_date": "2026-10-20",
       "timestamp": "2026-10-20T08:46:21.929732+00:00"
+    },
+    {
+      "id": "oop_02",
+      "category": "oop",
+      "filename": "programs/oop/02_library_management_system.py",
+      "title": "Library Book Management and Checkout System",
+      "summary": "Manages book catalog, borrowing states, patrons, and due dates",
+      "content_hash": "b7ba990c7e2c90bc00120c52d35f75e019dc918db1cb1b00f2a77e3fb58ae91f",
+      "source": "curated-template",
+      "generated_date": "2026-10-21",
+      "timestamp": "2026-10-21T08:47:08.253590+00:00"
     }
   ]
 }
