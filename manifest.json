@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-10-21T08:47:08.253590+00:00",
-  "total_programs": 12,
+  "last_updated": "2026-10-22T08:49:05.690219+00:00",
+  "total_programs": 13,
   "programs": [
     {
       "id": "basics_01",
@@ -133,6 +133,17 @@
       "source": "curated-template",
       "generated_date": "2026-10-21",
       "timestamp": "2026-10-21T08:47:08.253590+00:00"
+    },
+    {
+      "id": "dsa_02",
+      "category": "dsa",
+      "filename": "programs/dsa/02_bubble_and_selection_sort.py",
+      "title": "Bubble Sort and Selection Sort Algorithms",
+      "summary": "Implements classical O(n^2) comparison-based sorting algorithms for learning",
+      "content_hash": "e2bde428d19efce122b783f88b3248a968da297f7a8a36f24bb989290f9f1b4b",
+      "source": "curated-template",
+      "generated_date": "2026-10-22",
+      "timestamp": "2026-10-22T08:49:05.690219+00:00"
     }
   ]
 }
