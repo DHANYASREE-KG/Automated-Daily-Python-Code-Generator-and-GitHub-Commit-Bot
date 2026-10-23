@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-10-22T08:49:05.690219+00:00",
-  "total_programs": 13,
+  "last_updated": "2026-10-23T08:44:47.812775+00:00",
+  "total_programs": 14,
   "programs": [
     {
       "id": "basics_01",
@@ -144,6 +144,17 @@
       "source": "curated-template",
       "generated_date": "2026-10-22",
       "timestamp": "2026-10-22T08:49:05.690219+00:00"
+    },
+    {
+      "id": "utilities_02",
+      "category": "utilities",
+      "filename": "programs/utilities/02_csv_data_summary.py",
+      "title": "CSV Data Summary and Aggregation Engine",
+      "summary": "Parses CSV records without external libraries and computes min, max, mean, and sum",
+      "content_hash": "dc1ecbd06cf59879d2fe52068540bf2952f8b0062bb239771bf208d5ce9cc0e5",
+      "source": "curated-template",
+      "generated_date": "2026-10-23",
+      "timestamp": "2026-10-23T08:44:47.812775+00:00"
     }
   ]
 }
