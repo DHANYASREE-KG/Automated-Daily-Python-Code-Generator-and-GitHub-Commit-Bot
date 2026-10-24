@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-10-23T08:44:47.812775+00:00",
-  "total_programs": 14,
+  "last_updated": "2026-10-24T08:19:24.008990+00:00",
+  "total_programs": 15,
   "programs": [
     {
       "id": "basics_01",
@@ -155,6 +155,17 @@
       "source": "curated-template",
       "generated_date": "2026-10-23",
       "timestamp": "2026-10-23T08:44:47.812775+00:00"
+    },
+    {
+      "id": "basics_03",
+      "category": "basics",
+      "filename": "programs/basics/03_armstrong_number.py",
+      "title": "Armstrong (Narcissistic) Number Detector",
+      "summary": "Checks if an integer equals the sum of its own digits each raised to power of digit count",
+      "content_hash": "3a39fbc3084567b31183e24d616b7cd74c86efde41cf6263d38bf3e0b6ae2438",
+      "source": "curated-template",
+      "generated_date": "2026-10-24",
+      "timestamp": "2026-10-24T08:19:24.008990+00:00"
     }
   ]
 }
