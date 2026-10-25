@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-10-24T08:19:24.008990+00:00",
-  "total_programs": 15,
+  "last_updated": "2026-10-25T08:37:39.729478+00:00",
+  "total_programs": 16,
   "programs": [
     {
       "id": "basics_01",
@@ -166,6 +166,17 @@
       "source": "curated-template",
       "generated_date": "2026-10-24",
       "timestamp": "2026-10-24T08:19:24.008990+00:00"
+    },
+    {
+      "id": "strings_03",
+      "category": "strings",
+      "filename": "programs/strings/03_word_frequency_counter.py",
+      "title": "Word Frequency Counter and Top-N Analyzer",
+      "summary": "Tokenizes text, strips punctuation, and finds the most frequent words",
+      "content_hash": "6e801a66efb39e7852102e0a64d27a6f208daf1c5288c2a4027b65161da17033",
+      "source": "curated-template",
+      "generated_date": "2026-10-25",
+      "timestamp": "2026-10-25T08:37:39.729478+00:00"
     }
   ]
 }
