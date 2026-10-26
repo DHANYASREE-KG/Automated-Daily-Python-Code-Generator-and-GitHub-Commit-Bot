@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-10-25T08:37:39.729478+00:00",
-  "total_programs": 16,
+  "last_updated": "2026-10-26T09:14:26.938364+00:00",
+  "total_programs": 17,
   "programs": [
     {
       "id": "basics_01",
@@ -177,6 +177,17 @@
       "source": "curated-template",
       "generated_date": "2026-10-25",
       "timestamp": "2026-10-25T08:37:39.729478+00:00"
+    },
+    {
+      "id": "lists_03",
+      "category": "lists",
+      "filename": "programs/lists/03_second_largest_element.py",
+      "title": "Second Largest Element Finder",
+      "summary": "Finds the second largest distinct number in an array in O(n) single-pass time",
+      "content_hash": "88f2a5b4c813c84df90946227d6c1bf53dc240b8dd1c8bb8838e1bbefb105657",
+      "source": "curated-template",
+      "generated_date": "2026-10-26",
+      "timestamp": "2026-10-26T09:14:26.938364+00:00"
     }
   ]
 }
