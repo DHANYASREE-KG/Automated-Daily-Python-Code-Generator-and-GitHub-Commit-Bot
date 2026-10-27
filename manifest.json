@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-10-26T09:14:26.938364+00:00",
-  "total_programs": 17,
+  "last_updated": "2026-10-27T09:14:34.365303+00:00",
+  "total_programs": 18,
   "programs": [
     {
       "id": "basics_01",
@@ -188,6 +188,17 @@
       "source": "curated-template",
       "generated_date": "2026-10-26",
       "timestamp": "2026-10-26T09:14:26.938364+00:00"
+    },
+    {
+      "id": "functions_03",
+      "category": "functions",
+      "filename": "programs/functions/03_execution_timer_decorator.py",
+      "title": "Execution Timer and Performance Decorator",
+      "summary": "Measures and logs function elapsed wall-clock execution time",
+      "content_hash": "3436f2f3b29d68777907feff1683c66ae9106611bb61a7fbad853b8c49568f06",
+      "source": "curated-template",
+      "generated_date": "2026-10-27",
+      "timestamp": "2026-10-27T09:14:34.365303+00:00"
     }
   ]
 }
