@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-10-27T09:14:34.365303+00:00",
-  "total_programs": 18,
+  "last_updated": "2026-10-28T09:54:56.940051+00:00",
+  "total_programs": 19,
   "programs": [
     {
       "id": "basics_01",
@@ -199,6 +199,17 @@
       "source": "curated-template",
       "generated_date": "2026-10-27",
       "timestamp": "2026-10-27T09:14:34.365303+00:00"
+    },
+    {
+      "id": "oop_03",
+      "category": "oop",
+      "filename": "programs/oop/03_student_grading_system.py",
+      "title": "Student Grading System and GPA Calculator",
+      "summary": "Computes grades, GPAs, and class statistics with class encapsulation",
+      "content_hash": "19b028bdfcb3dd76c653c95c1a288dc2215292dc0b76ca27aba36e890566b363",
+      "source": "curated-template",
+      "generated_date": "2026-10-28",
+      "timestamp": "2026-10-28T09:54:56.940051+00:00"
     }
   ]
 }
