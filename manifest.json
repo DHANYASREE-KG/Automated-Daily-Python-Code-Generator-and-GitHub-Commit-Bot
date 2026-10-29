@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-10-28T09:54:56.940051+00:00",
-  "total_programs": 19,
+  "last_updated": "2026-10-29T10:17:43.032984+00:00",
+  "total_programs": 20,
   "programs": [
     {
       "id": "basics_01",
@@ -210,6 +210,17 @@
       "source": "curated-template",
       "generated_date": "2026-10-28",
       "timestamp": "2026-10-28T09:54:56.940051+00:00"
+    },
+    {
+      "id": "dsa_03",
+      "category": "dsa",
+      "filename": "programs/dsa/03_merge_sort.py",
+      "title": "Merge Sort Algorithm",
+      "summary": "Divides array recursively and merges sorted halves in O(n log n) stable time",
+      "content_hash": "293d379d51fa5d42b7a5fd9d928939dd7e255233190afde7aae43dbe97492cb5",
+      "source": "curated-template",
+      "generated_date": "2026-10-29",
+      "timestamp": "2026-10-29T10:17:43.032984+00:00"
     }
   ]
 }
