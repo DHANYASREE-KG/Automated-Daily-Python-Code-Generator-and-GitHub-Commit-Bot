@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-10-29T10:17:43.032984+00:00",
-  "total_programs": 20,
+  "last_updated": "2026-10-30T10:19:44.818625+00:00",
+  "total_programs": 21,
   "programs": [
     {
       "id": "basics_01",
@@ -221,6 +221,17 @@
       "source": "curated-template",
       "generated_date": "2026-10-29",
       "timestamp": "2026-10-29T10:17:43.032984+00:00"
+    },
+    {
+      "id": "utilities_03",
+      "category": "utilities",
+      "filename": "programs/utilities/03_password_generator.py",
+      "title": "Secure Password Generator and Entropy Evaluator",
+      "summary": "Generates cryptographically secure passwords and evaluates complexity",
+      "content_hash": "14a4fd007adf36fa12e2e4998583b66beba73c0611ef3cc6672c227e35e13698",
+      "source": "curated-template",
+      "generated_date": "2026-10-30",
+      "timestamp": "2026-10-30T10:19:44.818625+00:00"
     }
   ]
 }
