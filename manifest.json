@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-10-30T10:19:44.818625+00:00",
-  "total_programs": 21,
+  "last_updated": "2026-10-31T09:52:03.330201+00:00",
+  "total_programs": 22,
   "programs": [
     {
       "id": "basics_01",
@@ -232,6 +232,17 @@
       "source": "curated-template",
       "generated_date": "2026-10-30",
       "timestamp": "2026-10-30T10:19:44.818625+00:00"
+    },
+    {
+      "id": "basics_04",
+      "category": "basics",
+      "filename": "programs/basics/04_leap_year_validator.py",
+      "title": "Leap Year and Calendar Date Validator",
+      "summary": "Checks whether a year is a leap year and validates calendar dates",
+      "content_hash": "5f661430ec81cbde36a3f6c9aab68d9120272d7596c84f1f676c36495b78690d",
+      "source": "curated-template",
+      "generated_date": "2026-10-31",
+      "timestamp": "2026-10-31T09:52:03.330201+00:00"
     }
   ]
 }
