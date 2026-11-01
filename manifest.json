@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-10-31T09:52:03.330201+00:00",
-  "total_programs": 22,
+  "last_updated": "2026-11-01T10:42:42.806473+00:00",
+  "total_programs": 23,
   "programs": [
     {
       "id": "basics_01",
@@ -243,6 +243,17 @@
       "source": "curated-template",
       "generated_date": "2026-10-31",
       "timestamp": "2026-10-31T09:52:03.330201+00:00"
+    },
+    {
+      "id": "strings_04",
+      "category": "strings",
+      "filename": "programs/strings/04_caesar_cipher.py",
+      "title": "Caesar Cipher Encryption and Decryption",
+      "summary": "Implements the classical Caesar substitution cipher with support for negative shifts",
+      "content_hash": "41f7bfa8af3f5666c3f57bb4188774e046693f83106905675f9a46cc346ec1d8",
+      "source": "curated-template",
+      "generated_date": "2026-11-01",
+      "timestamp": "2026-11-01T10:42:42.806473+00:00"
     }
   ]
 }
