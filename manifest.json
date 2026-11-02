@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-11-01T10:42:42.806473+00:00",
-  "total_programs": 23,
+  "last_updated": "2026-11-02T11:31:38.954508+00:00",
+  "total_programs": 24,
   "programs": [
     {
       "id": "basics_01",
@@ -254,6 +254,17 @@
       "source": "curated-template",
       "generated_date": "2026-11-01",
       "timestamp": "2026-11-01T10:42:42.806473+00:00"
+    },
+    {
+      "id": "lists_04",
+      "category": "lists",
+      "filename": "programs/lists/04_flatten_nested_list.py",
+      "title": "Arbitrarily Nested List Flattener",
+      "summary": "Flattens an arbitrarily deep nested list structure into a flat list",
+      "content_hash": "79eaaa41c8e203ce43550be0a82c7b54be42abcde0d3bbf6f140e2c4515dd781",
+      "source": "curated-template",
+      "generated_date": "2026-11-02",
+      "timestamp": "2026-11-02T11:31:38.954508+00:00"
     }
   ]
 }
