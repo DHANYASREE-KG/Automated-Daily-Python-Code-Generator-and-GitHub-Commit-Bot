@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-11-02T11:31:38.954508+00:00",
-  "total_programs": 24,
+  "last_updated": "2026-11-03T11:11:30.183994+00:00",
+  "total_programs": 25,
   "programs": [
     {
       "id": "basics_01",
@@ -265,6 +265,17 @@
       "source": "curated-template",
       "generated_date": "2026-11-02",
       "timestamp": "2026-11-02T11:31:38.954508+00:00"
+    },
+    {
+      "id": "functions_04",
+      "category": "functions",
+      "filename": "programs/functions/04_input_validation_decorator.py",
+      "title": "Input Type and Range Validator Decorator",
+      "summary": "Validates function argument types and bounds before execution",
+      "content_hash": "19d876fe1cb1c648ec22cd844ab78426631a8f5ea7e579f7132fc1c48e3b85de",
+      "source": "curated-template",
+      "generated_date": "2026-11-03",
+      "timestamp": "2026-11-03T11:11:30.183994+00:00"
     }
   ]
 }
