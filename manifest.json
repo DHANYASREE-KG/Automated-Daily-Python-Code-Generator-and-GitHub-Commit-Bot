@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-11-03T11:11:30.183994+00:00",
-  "total_programs": 25,
+  "last_updated": "2026-11-05T11:20:32.086967+00:00",
+  "total_programs": 26,
   "programs": [
     {
       "id": "basics_01",
@@ -276,6 +276,17 @@
       "source": "curated-template",
       "generated_date": "2026-11-03",
       "timestamp": "2026-11-03T11:11:30.183994+00:00"
+    },
+    {
+      "id": "oop_04",
+      "category": "oop",
+      "filename": "programs/oop/04_inventory_manager.py",
+      "title": "Inventory Item Stock Management",
+      "summary": "Tracks product inventory, stock threshold reorders, and valuations",
+      "content_hash": "312187a4dd3f30e5d9b027df6ca00af9ed97ca23bda5aef767079e629105b2b4",
+      "source": "curated-template",
+      "generated_date": "2026-11-05",
+      "timestamp": "2026-11-05T11:20:32.086967+00:00"
     }
   ]
 }
