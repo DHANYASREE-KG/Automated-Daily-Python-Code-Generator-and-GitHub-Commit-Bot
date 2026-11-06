@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-11-05T11:20:32.086967+00:00",
-  "total_programs": 26,
+  "last_updated": "2026-11-06T11:17:28.657177+00:00",
+  "total_programs": 27,
   "programs": [
     {
       "id": "basics_01",
@@ -287,6 +287,17 @@
       "source": "curated-template",
       "generated_date": "2026-11-05",
       "timestamp": "2026-11-05T11:20:32.086967+00:00"
+    },
+    {
+      "id": "dsa_04",
+      "category": "dsa",
+      "filename": "programs/dsa/04_quick_sort.py",
+      "title": "Quick Sort Algorithm",
+      "summary": "Partitions array around a pivot element in O(n log n) average time",
+      "content_hash": "9dbaacacc5b3a592458d3eb370abf467529846a29fe564dd0526e3e4eaeea6a1",
+      "source": "curated-template",
+      "generated_date": "2026-11-06",
+      "timestamp": "2026-11-06T11:17:28.657177+00:00"
     }
   ]
 }
