@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-11-06T11:17:28.657177+00:00",
-  "total_programs": 27,
+  "last_updated": "2026-11-07T10:32:27.614117+00:00",
+  "total_programs": 28,
   "programs": [
     {
       "id": "basics_01",
@@ -298,6 +298,17 @@
       "source": "curated-template",
       "generated_date": "2026-11-06",
       "timestamp": "2026-11-06T11:17:28.657177+00:00"
+    },
+    {
+      "id": "utilities_04",
+      "category": "utilities",
+      "filename": "programs/utilities/04_json_config_manager.py",
+      "title": "JSON Configuration Manager with Dot-Notation Access",
+      "summary": "Loads and modifies nested configuration values using dot notation paths",
+      "content_hash": "078723272f8ab1455225b89af8b449ada1491fdf56ab2d0d6c68d63dce41e156",
+      "source": "curated-template",
+      "generated_date": "2026-11-07",
+      "timestamp": "2026-11-07T10:32:27.614117+00:00"
     }
   ]
 }
