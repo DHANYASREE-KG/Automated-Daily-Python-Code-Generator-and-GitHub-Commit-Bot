@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-11-07T10:32:27.614117+00:00",
-  "total_programs": 28,
+  "last_updated": "2026-11-08T10:39:19.356586+00:00",
+  "total_programs": 29,
   "programs": [
     {
       "id": "basics_01",
@@ -309,6 +309,17 @@
       "source": "curated-template",
       "generated_date": "2026-11-07",
       "timestamp": "2026-11-07T10:32:27.614117+00:00"
+    },
+    {
+      "id": "basics_05",
+      "category": "basics",
+      "filename": "programs/basics/05_multiplication_table.py",
+      "title": "Multiplication Table Formatter",
+      "summary": "Prints clean multiplication tables with customizable ranges",
+      "content_hash": "bafbc9c16fbe84817d9859b562189bde2a97f623797a1e39c8cf3c4ccefd5c60",
+      "source": "curated-template",
+      "generated_date": "2026-11-08",
+      "timestamp": "2026-11-08T10:39:19.356586+00:00"
     }
   ]
 }
