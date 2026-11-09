@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-11-08T10:39:19.356586+00:00",
-  "total_programs": 29,
+  "last_updated": "2026-11-09T11:56:16.851607+00:00",
+  "total_programs": 30,
   "programs": [
     {
       "id": "basics_01",
@@ -320,6 +320,17 @@
       "source": "curated-template",
       "generated_date": "2026-11-08",
       "timestamp": "2026-11-08T10:39:19.356586+00:00"
+    },
+    {
+      "id": "strings_05",
+      "category": "strings",
+      "filename": "programs/strings/05_slug_converter.py",
+      "title": "URL Slug and Title Case Converter",
+      "summary": "Converts plain text titles into URL-safe slugs and clean title-case headers",
+      "content_hash": "92381efec334e2febf58c727ee6864b047a61b27075bdb3a463dffbe31293442",
+      "source": "curated-template",
+      "generated_date": "2026-11-09",
+      "timestamp": "2026-11-09T11:56:16.851607+00:00"
     }
   ]
 }
