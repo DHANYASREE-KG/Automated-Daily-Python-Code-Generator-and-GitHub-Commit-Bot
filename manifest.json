@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-11-09T11:56:16.851607+00:00",
-  "total_programs": 30,
+  "last_updated": "2026-11-10T11:29:53.286048+00:00",
+  "total_programs": 31,
   "programs": [
     {
       "id": "basics_01",
@@ -331,6 +331,17 @@
       "source": "curated-template",
       "generated_date": "2026-11-09",
       "timestamp": "2026-11-09T11:56:16.851607+00:00"
+    },
+    {
+      "id": "lists_05",
+      "category": "lists",
+      "filename": "programs/lists/05_matrix_operations.py",
+      "title": "Matrix Transposition and 90-Degree Rotation",
+      "summary": "Performs 2D matrix transposition and clockwise 90-degree rotation",
+      "content_hash": "7fd8610306409f64be05d91bf2743149c76de7fef756e553ae432117bab551a5",
+      "source": "curated-template",
+      "generated_date": "2026-11-10",
+      "timestamp": "2026-11-10T11:29:53.286048+00:00"
     }
   ]
 }
