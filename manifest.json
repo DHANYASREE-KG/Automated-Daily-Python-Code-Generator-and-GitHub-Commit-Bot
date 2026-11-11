@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-11-10T11:29:53.286048+00:00",
-  "total_programs": 31,
+  "last_updated": "2026-11-11T11:19:23.703879+00:00",
+  "total_programs": 32,
   "programs": [
     {
       "id": "basics_01",
@@ -342,6 +342,17 @@
       "source": "curated-template",
       "generated_date": "2026-11-10",
       "timestamp": "2026-11-10T11:29:53.286048+00:00"
+    },
+    {
+      "id": "functions_05",
+      "category": "functions",
+      "filename": "programs/functions/05_tower_of_hanoi.py",
+      "title": "Tower of Hanoi Recursive Solver",
+      "summary": "Solves the classical Tower of Hanoi puzzle printing disk transfer movements",
+      "content_hash": "e257f88cafbc940ce271b1407eaef0b4ee8c85ad5a5ab16d4de4fc1337a663aa",
+      "source": "curated-template",
+      "generated_date": "2026-11-11",
+      "timestamp": "2026-11-11T11:19:23.703879+00:00"
     }
   ]
 }
