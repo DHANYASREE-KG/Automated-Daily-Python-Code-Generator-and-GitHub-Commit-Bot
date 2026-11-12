@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-11-11T11:19:23.703879+00:00",
-  "total_programs": 32,
+  "last_updated": "2026-11-12T11:38:38.550704+00:00",
+  "total_programs": 33,
   "programs": [
     {
       "id": "basics_01",
@@ -353,6 +353,17 @@
       "source": "curated-template",
       "generated_date": "2026-11-11",
       "timestamp": "2026-11-11T11:19:23.703879+00:00"
+    },
+    {
+      "id": "oop_05",
+      "category": "oop",
+      "filename": "programs/oop/05_vehicle_inheritance.py",
+      "title": "Vehicle Polymorphic Class Hierarchy",
+      "summary": "Demonstrates inheritance, method overriding, and super() calls",
+      "content_hash": "ecfb6dd278cd593be1d8ade20cf5e3ad28f3f00b88afa700ef81b4fd55d06b27",
+      "source": "curated-template",
+      "generated_date": "2026-11-12",
+      "timestamp": "2026-11-12T11:38:38.550704+00:00"
     }
   ]
 }
