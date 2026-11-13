@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-11-12T11:38:38.550704+00:00",
-  "total_programs": 33,
+  "last_updated": "2026-11-13T11:22:23.282603+00:00",
+  "total_programs": 34,
   "programs": [
     {
       "id": "basics_01",
@@ -364,6 +364,17 @@
       "source": "curated-template",
       "generated_date": "2026-11-12",
       "timestamp": "2026-11-12T11:38:38.550704+00:00"
+    },
+    {
+      "id": "dsa_05",
+      "category": "dsa",
+      "filename": "programs/dsa/05_stack_data_structure.py",
+      "title": "Stack Data Structure (LIFO)",
+      "summary": "Implements Last-In-First-Out stack with push, pop, peek, and capacity limits",
+      "content_hash": "9cc8a2fd49de59d51df49d7737d62ba66eb790ed4069fe0e8eddbb98bb843f7a",
+      "source": "curated-template",
+      "generated_date": "2026-11-13",
+      "timestamp": "2026-11-13T11:22:23.282603+00:00"
     }
   ]
 }
