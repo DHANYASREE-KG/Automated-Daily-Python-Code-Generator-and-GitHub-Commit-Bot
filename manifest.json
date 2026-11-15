@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-11-14T10:45:20.919328+00:00",
-  "total_programs": 35,
+  "last_updated": "2026-11-15T11:20:52.113117+00:00",
+  "total_programs": 36,
   "programs": [
     {
       "id": "basics_01",
@@ -386,6 +386,17 @@
       "source": "curated-template",
       "generated_date": "2026-11-14",
       "timestamp": "2026-11-14T10:45:20.919328+00:00"
+    },
+    {
+      "id": "basics_06",
+      "category": "basics",
+      "filename": "programs/basics/06_star_pattern_printer.py",
+      "title": "Star and Pyramid Pattern Printer",
+      "summary": "Generates pyramid, inverted pyramid, and diamond star patterns",
+      "content_hash": "abdba8d9b8dd279a836c6fb0fddb80c74dac9b18201a710d91c85ab10b466779",
+      "source": "curated-template",
+      "generated_date": "2026-11-15",
+      "timestamp": "2026-11-15T11:20:52.113117+00:00"
     }
   ]
 }
