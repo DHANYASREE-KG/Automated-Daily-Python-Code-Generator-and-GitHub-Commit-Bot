@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-11-15T11:20:52.113117+00:00",
-  "total_programs": 36,
+  "last_updated": "2026-11-16T11:52:42.897956+00:00",
+  "total_programs": 37,
   "programs": [
     {
       "id": "basics_01",
@@ -397,6 +397,17 @@
       "source": "curated-template",
       "generated_date": "2026-11-15",
       "timestamp": "2026-11-15T11:20:52.113117+00:00"
+    },
+    {
+      "id": "strings_06",
+      "category": "strings",
+      "filename": "programs/strings/06_vowel_consonant_analyzer.py",
+      "title": "Vowel and Consonant Density Analyzer",
+      "summary": "Counts vowels, consonants, digits, and whitespace in any given sentence",
+      "content_hash": "0e8e39a5bfbb17cd1db8626ba0285b25243d874e929dc1302b39612c5e6a090b",
+      "source": "curated-template",
+      "generated_date": "2026-11-16",
+      "timestamp": "2026-11-16T11:52:42.897956+00:00"
     }
   ]
 }
