@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-11-16T11:52:42.897956+00:00",
-  "total_programs": 37,
+  "last_updated": "2026-11-17T12:15:13.557819+00:00",
+  "total_programs": 38,
   "programs": [
     {
       "id": "basics_01",
@@ -408,6 +408,17 @@
       "source": "curated-template",
       "generated_date": "2026-11-16",
       "timestamp": "2026-11-16T11:52:42.897956+00:00"
+    },
+    {
+      "id": "lists_06",
+      "category": "lists",
+      "filename": "programs/lists/06_list_chunking.py",
+      "title": "List Chunking and Batch Slicer",
+      "summary": "Splits a large list into uniform fixed-size batch chunks",
+      "content_hash": "56b10ab7eedf28ee05e40c5cc97497ddc6673e2fe5a635cc7a8139f73896326e",
+      "source": "curated-template",
+      "generated_date": "2026-11-17",
+      "timestamp": "2026-11-17T12:15:13.557819+00:00"
     }
   ]
 }
