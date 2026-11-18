@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-11-17T12:15:13.557819+00:00",
-  "total_programs": 38,
+  "last_updated": "2026-11-18T12:02:17.853485+00:00",
+  "total_programs": 39,
   "programs": [
     {
       "id": "basics_01",
@@ -419,6 +419,17 @@
       "source": "curated-template",
       "generated_date": "2026-11-17",
       "timestamp": "2026-11-17T12:15:13.557819+00:00"
+    },
+    {
+      "id": "functions_06",
+      "category": "functions",
+      "filename": "programs/functions/06_fast_power_calculator.py",
+      "title": "Fast Modular Exponentiation (Binary Power)",
+      "summary": "Computes base^exp in O(log exp) time using divide-and-conquer binary exponentiation",
+      "content_hash": "471aec0262d1667dfc2dc216ab2cf5a1d550d63306cd9787aadc9198e21c2b86",
+      "source": "curated-template",
+      "generated_date": "2026-11-18",
+      "timestamp": "2026-11-18T12:02:17.853485+00:00"
     }
   ]
 }
