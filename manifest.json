@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-11-18T12:02:17.853485+00:00",
-  "total_programs": 39,
+  "last_updated": "2026-11-19T11:58:23.450591+00:00",
+  "total_programs": 40,
   "programs": [
     {
       "id": "basics_01",
@@ -430,6 +430,17 @@
       "source": "curated-template",
       "generated_date": "2026-11-18",
       "timestamp": "2026-11-18T12:02:17.853485+00:00"
+    },
+    {
+      "id": "oop_06",
+      "category": "oop",
+      "filename": "programs/oop/06_shape_polymorphism.py",
+      "title": "Geometric Shape Polymorphism and Calculations",
+      "summary": "Uses abstract base classes (ABC) to calculate area and perimeter across shapes",
+      "content_hash": "96e102fcdb093ddbb7366c63934104059d9b3350338b4b0e63ce8d7d7a8795a0",
+      "source": "curated-template",
+      "generated_date": "2026-11-19",
+      "timestamp": "2026-11-19T11:58:23.450591+00:00"
     }
   ]
 }
