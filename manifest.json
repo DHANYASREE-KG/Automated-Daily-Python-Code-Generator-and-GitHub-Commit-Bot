@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-11-19T11:58:23.450591+00:00",
-  "total_programs": 40,
+  "last_updated": "2026-11-20T11:59:13.227499+00:00",
+  "total_programs": 41,
   "programs": [
     {
       "id": "basics_01",
@@ -441,6 +441,17 @@
       "source": "curated-template",
       "generated_date": "2026-11-19",
       "timestamp": "2026-11-19T11:58:23.450591+00:00"
+    },
+    {
+      "id": "dsa_06",
+      "category": "dsa",
+      "filename": "programs/dsa/06_queue_data_structure.py",
+      "title": "Queue Data Structure (FIFO)",
+      "summary": "Implements First-In-First-Out queue using collections.deque with O(1) enqueue and dequeue",
+      "content_hash": "fcf7cb04d04fcb7eb2dd0654db5227f05a527d725a6df5ea71eff3c874a886a6",
+      "source": "curated-template",
+      "generated_date": "2026-11-20",
+      "timestamp": "2026-11-20T11:59:13.227499+00:00"
     }
   ]
 }
