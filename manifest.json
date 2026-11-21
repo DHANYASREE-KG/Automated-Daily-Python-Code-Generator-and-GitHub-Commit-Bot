@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-11-20T11:59:13.227499+00:00",
-  "total_programs": 41,
+  "last_updated": "2026-11-21T11:33:28.147267+00:00",
+  "total_programs": 42,
   "programs": [
     {
       "id": "basics_01",
@@ -452,6 +452,17 @@
       "source": "curated-template",
       "generated_date": "2026-11-20",
       "timestamp": "2026-11-20T11:59:13.227499+00:00"
+    },
+    {
+      "id": "utilities_06",
+      "category": "utilities",
+      "filename": "programs/utilities/06_custom_logger.py",
+      "title": "Custom Timestamped Console and File Logger",
+      "summary": "Provides colorized or formatted logs with levels INFO, WARNING, and ERROR",
+      "content_hash": "42c770e2532a3a22de42ef6ca8175a0ed68a2aace9bf0f8f391abed2830d4271",
+      "source": "curated-template",
+      "generated_date": "2026-11-21",
+      "timestamp": "2026-11-21T11:33:28.147267+00:00"
     }
   ]
 }
