@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-11-21T11:33:28.147267+00:00",
-  "total_programs": 42,
+  "last_updated": "2026-11-22T11:47:11.604846+00:00",
+  "total_programs": 43,
   "programs": [
     {
       "id": "basics_01",
@@ -463,6 +463,17 @@
       "source": "curated-template",
       "generated_date": "2026-11-21",
       "timestamp": "2026-11-21T11:33:28.147267+00:00"
+    },
+    {
+      "id": "basics_07",
+      "category": "basics",
+      "filename": "programs/basics/07_factorial_calculator.py",
+      "title": "Factorial Calculator and Combinations",
+      "summary": "Computes factorial using iteration and calculates permutations and combinations",
+      "content_hash": "176c995b18d6b3f169a597f40140786a47d19dc98d3f9a2fe05995447b268111",
+      "source": "curated-template",
+      "generated_date": "2026-11-22",
+      "timestamp": "2026-11-22T11:47:11.604846+00:00"
     }
   ]
 }
