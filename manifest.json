@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-11-23T13:27:02.672946+00:00",
-  "total_programs": 44,
+  "last_updated": "2026-11-24T14:05:52.286167+00:00",
+  "total_programs": 45,
   "programs": [
     {
       "id": "basics_01",
@@ -485,6 +485,17 @@
       "source": "curated-template",
       "generated_date": "2026-11-23",
       "timestamp": "2026-11-23T13:27:02.672946+00:00"
+    },
+    {
+      "id": "lists_07",
+      "category": "lists",
+      "filename": "programs/lists/07_list_set_operations.py",
+      "title": "List Set Operations (Intersection, Union, Difference)",
+      "summary": "Computes set intersections, unions, and symmetric differences preserving order",
+      "content_hash": "951b84fffdd4c22e27a6053c74194584e3f2aae202561ed4711c33c630382bca",
+      "source": "curated-template",
+      "generated_date": "2026-11-24",
+      "timestamp": "2026-11-24T14:05:52.286167+00:00"
     }
   ]
 }
