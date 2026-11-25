@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-11-24T14:05:52.286167+00:00",
-  "total_programs": 45,
+  "last_updated": "2026-11-25T13:18:44.455103+00:00",
+  "total_programs": 46,
   "programs": [
     {
       "id": "basics_01",
@@ -496,6 +496,17 @@
       "source": "curated-template",
       "generated_date": "2026-11-24",
       "timestamp": "2026-11-24T14:05:52.286167+00:00"
+    },
+    {
+      "id": "functions_07",
+      "category": "functions",
+      "filename": "programs/functions/07_prime_generator.py",
+      "title": "Infinite Prime Number Generator Stream",
+      "summary": "Implements a Python generator function yielding primes on-demand with lazy evaluation",
+      "content_hash": "a6cf768fd6e2600edadfd62bf03762241d4cc960e1a09810c1dd1cbc11f7b95e",
+      "source": "curated-template",
+      "generated_date": "2026-11-25",
+      "timestamp": "2026-11-25T13:18:44.455103+00:00"
     }
   ]
 }
