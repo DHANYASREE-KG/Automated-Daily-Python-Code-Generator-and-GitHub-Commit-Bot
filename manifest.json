@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-11-25T13:18:44.455103+00:00",
-  "total_programs": 46,
+  "last_updated": "2026-11-26T12:58:37.953372+00:00",
+  "total_programs": 47,
   "programs": [
     {
       "id": "basics_01",
@@ -507,6 +507,17 @@
       "source": "curated-template",
       "generated_date": "2026-11-25",
       "timestamp": "2026-11-25T13:18:44.455103+00:00"
+    },
+    {
+      "id": "oop_07",
+      "category": "oop",
+      "filename": "programs/oop/07_shopping_cart.py",
+      "title": "E-Commerce Shopping Cart with Discounts and Tax",
+      "summary": "Models shopping cart items, promo codes, sales tax, and checkout totals",
+      "content_hash": "48603366146ca7ba64849ca739ff52218a79962760c1caa573ca7fc2739d2195",
+      "source": "curated-template",
+      "generated_date": "2026-11-26",
+      "timestamp": "2026-11-26T12:58:37.953372+00:00"
     }
   ]
 }
