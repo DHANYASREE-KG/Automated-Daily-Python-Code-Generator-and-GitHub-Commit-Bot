@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-11-26T12:58:37.953372+00:00",
-  "total_programs": 47,
+  "last_updated": "2026-11-27T12:54:55.284075+00:00",
+  "total_programs": 48,
   "programs": [
     {
       "id": "basics_01",
@@ -518,6 +518,17 @@
       "source": "curated-template",
       "generated_date": "2026-11-26",
       "timestamp": "2026-11-26T12:58:37.953372+00:00"
+    },
+    {
+      "id": "dsa_07",
+      "category": "dsa",
+      "filename": "programs/dsa/07_singly_linked_list.py",
+      "title": "Singly Linked List with Reversal",
+      "summary": "Implements linked list nodes, head/tail appends, and in-place pointer reversal",
+      "content_hash": "6a03ce75f560e00274affa8bcb21fa187f9729df360144a9665b21f0cbf0cc03",
+      "source": "curated-template",
+      "generated_date": "2026-11-27",
+      "timestamp": "2026-11-27T12:54:55.284075+00:00"
     }
   ]
 }
