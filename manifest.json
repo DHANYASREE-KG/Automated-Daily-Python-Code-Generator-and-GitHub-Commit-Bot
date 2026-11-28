@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-11-27T12:54:55.284075+00:00",
-  "total_programs": 48,
+  "last_updated": "2026-11-28T12:07:38.567697+00:00",
+  "total_programs": 49,
   "programs": [
     {
       "id": "basics_01",
@@ -529,6 +529,17 @@
       "source": "curated-template",
       "generated_date": "2026-11-27",
       "timestamp": "2026-11-27T12:54:55.284075+00:00"
+    },
+    {
+      "id": "utilities_07",
+      "category": "utilities",
+      "filename": "programs/utilities/07_stopwatch_timer.py",
+      "title": "Precision Stopwatch and Lap Tracker",
+      "summary": "Tracks execution durations and records split lap timings",
+      "content_hash": "7f0993dc8badc6885932609729d0a5e596925a86d0f3f72630b4aa145463b148",
+      "source": "curated-template",
+      "generated_date": "2026-11-28",
+      "timestamp": "2026-11-28T12:07:38.567697+00:00"
     }
   ]
 }
